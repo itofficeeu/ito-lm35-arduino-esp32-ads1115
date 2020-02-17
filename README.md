@@ -29,7 +29,9 @@ A LM35 mounted on the Sensor Adapter Switchboard from https://itoffice.eu/
 
 The Sensor Adapter Switchboard is mounted on the Minimal-X Extension Board from https://itoffice.eu/
 
-ESP32 in a Heltec WiFi Lora 32 that runs on top of the Minimal-X Extension Board.
+The signal from the LM35 is processed by an ADS1115 where the it is picked up via I2C from the ESP32.
+
+The ESP32 is in a Heltec WiFi Lora 32 that runs on top of the Minimal-X Extension Board.
 
 See the foto for an overview of the hardware mentioned, or visit the web site https://itoffice.eu/ for further inspiration.
 
