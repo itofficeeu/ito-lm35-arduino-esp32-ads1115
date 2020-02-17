@@ -1,4 +1,4 @@
-# ito-lm35-arduino-esp32
+# ito-lm35-arduino-esp32-ads1115
 Example program that continous reads the temperature determined by a LM35, 
 and outputs it in the Arduino monitor, alias terminal.
 
