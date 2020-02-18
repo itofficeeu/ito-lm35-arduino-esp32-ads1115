@@ -80,7 +80,7 @@ void loop()
   /* Convert the analog_read_value to a voltage. - ADS1115 + Minimal-X Extension Board */
   float analog_read_volt = (analog_read_value / ads1115_analog_read_limit ) * voltage_divider_volt_limit;
 
-  /* Calculate the temperature in Celcius based on the resistance of the KTY81. */
+  /* Calculate the temperature in Celcius based on the voltage output of the sensor. */
   /* - Celcuis: */
   float lm35_temperature_celcius = analog_read_volt / 0.01;
   /* - Fahrenheit: */
